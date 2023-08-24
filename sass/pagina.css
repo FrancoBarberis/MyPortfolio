@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: gray;
+  background-color: navy;
   max-width: 70vw;
   min-height: 100vh;
 }
@@ -14,7 +14,7 @@ body header {
   border-radius: 30px;
 }
 body header .nav {
-  background-color: blue;
+  background-color: navy;
 }
 body h1 {
   font-family: "Fuggles", sans-serif, cursive;

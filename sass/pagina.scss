@@ -16,7 +16,7 @@ body {
         border-radius: 30px;
 
         .nav {
-            background-color: blue;
+            background-color: $colorPagina;
         }
     }
 
@@ -28,18 +28,18 @@ body {
 
 
     h2 {
-        color: $colorH2;
+        color: $colorTextos;
         font-weight: 600;
     }
 
     h3 {
-        color: rgb(238, 227, 227);
+        color: $colorTextos;
         font-size: larger;
     }
 
     h4 {
 
-        color: rgb(238, 227, 227);
+        color: $colorTextos;
         font-size: medium;
     }
 
@@ -50,6 +50,6 @@ body {
 
     p {
 
-        color: rgb(238, 227, 227);
+        color: $colorTextos;
     }
 }
