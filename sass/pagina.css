@@ -11,7 +11,12 @@ body header .nav {
 }
 body span {
   color: rgb(184, 181, 181);
+  font-size: large;
 }
 body h2 {
   color: rgb(238, 227, 227);
+}
+body h3 {
+  color: rgb(238, 227, 227);
+  font-size: larger;
 }/*# sourceMappingURL=pagina.css.map */
