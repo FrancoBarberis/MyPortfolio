@@ -1,0 +1,17 @@
+body {
+  background-color: gray;
+  max-width: 70vw;
+}
+body header {
+  margin-top: 30px;
+  border-radius: 30px;
+}
+body header .nav {
+  background-color: blue;
+}
+body span {
+  color: rgb(184, 181, 181);
+}
+body h2 {
+  color: rgb(238, 227, 227);
+}/*# sourceMappingURL=pagina.css.map */

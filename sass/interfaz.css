@@ -1,0 +1,46 @@
+.cajaPerfil {
+  background-color: black;
+  border-radius: 20px;
+  height: 95vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 20px;
+  position: fixed;
+  left: 70%;
+  top: 0;
+}
+.cajaPerfil .bannerPerfil {
+  background-color: lightgreen;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.cajaPerfil .bannerPerfil .fotoPerfil {
+  border: 5px black solid;
+  max-width: 25%;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  top: 30px;
+  left: 20px;
+}
+.cajaPerfil .infoPerfil {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+  position: relative;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.cajaPerfil .infoPerfil .infoFlex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 10px;
+}
+.cajaPerfil .infoPerfil .infoFlex .cajaInfo {
+  background-color: gray;
+  padding-inline: 10px;
+  padding-top: 5px;
+  border-radius: 5px;
+}/*# sourceMappingURL=interfaz.css.map */

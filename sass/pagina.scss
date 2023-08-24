@@ -1,0 +1,23 @@
+@import "variables";
+
+body {
+    background-color: $colorPagina;
+    max-width: 70vw;
+
+    header {
+        margin-top: 30px;
+        border-radius: 30px;
+
+        .nav {
+            background-color: blue;
+        }
+    }
+
+    span {
+        color: $colorSpan;
+    }
+
+    h2 {
+        color: $colorH2;
+    }
+}

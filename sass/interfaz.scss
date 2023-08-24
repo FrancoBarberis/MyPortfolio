@@ -1,5 +1,59 @@
-@import url(variables.scss);
+@import "variables";
 
-.fotoPerfil{
-    border: 5px $colorPerfil solid;
+
+.cajaPerfil {
+    background-color: $colorPerfil;
+    border-radius: $radioBordes;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 20px;
+    position: fixed;
+    left: 70%;
+    top: 0;
+
+    .bannerPerfil {
+
+        background-color: lightgreen;
+        border-top-left-radius: $radioBordes;
+        border-top-right-radius: $radioBordes;
+
+        .fotoPerfil {
+            border: 5px $colorPerfil solid;
+            max-width: 25%;
+            height: auto;
+            border-radius: 50%;
+            position: relative;
+            top: 30px;
+            left: 20px;
+        }
+    }
+
+
+    .infoPerfil {
+
+        display: flex;
+        flex-direction: column;
+        padding-inline: 20px;
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 10px;
+
+        .infoFlex {
+
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            margin-bottom: 10px;
+
+            .cajaInfo {
+
+                background-color: gray;
+                padding-inline: 10px;
+                padding-top: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
 }
