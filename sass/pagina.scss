@@ -8,16 +8,20 @@
 
 body {
     background-color: $colorPagina;
-    min-height: 100vh;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
+
+    overflow: hidden;
 
     header {
         margin-top: 30px;
         border-radius: 30px;
+        max-width: 68%;
+        margin-left: 1%;
 
-        .nav {
-            background-color: $colorPagina;
+        .navbar {
+
+            border-radius: 15px;
         }
     }
 
@@ -54,11 +58,23 @@ body {
         color: $colorTextos;
     }
 
-    .videoBackground{
-        
-        position:fixed;
+    .videoBackground {
+        position: fixed;
         right: 0;
         bottom: 0;
         z-index: -1;
+    }
+
+    .nav-link {
+        font-weight: 700;
+        color: black;
+        border-radius: 30px;
+    }
+
+    .boxProyecto {
+        max-width: 300px;
+        .imgProyecto{
+            width: 10vw;
+        }
     }
 }

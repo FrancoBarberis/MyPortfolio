@@ -5,17 +5,19 @@
 }
 
 body {
-  background-color: navy;
-  min-height: 100vh;
-  width: 100%;
+  background-color: black;
+  width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 body header {
   margin-top: 30px;
   border-radius: 30px;
+  max-width: 68%;
+  margin-left: 1%;
 }
-body header .nav {
-  background-color: navy;
+body header .navbar {
+  border-radius: 15px;
 }
 body h1 {
   font-family: "Fuggles", sans-serif, cursive;
@@ -45,4 +47,15 @@ body .videoBackground {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+body .nav-link {
+  font-weight: 700;
+  color: black;
+  border-radius: 30px;
+}
+body .boxProyecto {
+  max-width: 300px;
+}
+body .boxProyecto .imgProyecto {
+  width: 10vw;
 }/*# sourceMappingURL=pagina.css.map */
