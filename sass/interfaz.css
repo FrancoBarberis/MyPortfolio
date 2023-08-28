@@ -11,7 +11,8 @@
   top: 0;
 }
 .cajaPerfil .bannerPerfil {
-  background-color: orange;
+  background-image: url(../img/banner.webp);
+  background-repeat: round;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   margin-bottom: 30px;
@@ -61,4 +62,5 @@
 }
 .cajaPerfil .infoPerfil .infoFlex .cajaInfo:hover {
   transform: scale(1.1);
+  background-color: orange;
 }/*# sourceMappingURL=interfaz.css.map */

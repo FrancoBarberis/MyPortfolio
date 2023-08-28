@@ -15,7 +15,8 @@
 
     .bannerPerfil {
 
-        background-color: orange;
+        background-image: url(../img/banner.webp);
+        background-repeat:round;
         border-top-left-radius: $radioBordes;
         border-top-right-radius: $radioBordes;
         margin-bottom: 30px;
@@ -75,6 +76,7 @@
 
             .cajaInfo:hover {
                 transform: scale(1.1);
+                background-color: orange;
             }
         }
     }

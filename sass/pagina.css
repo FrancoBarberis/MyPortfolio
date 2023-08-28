@@ -11,13 +11,52 @@ body {
   overflow-x: hidden;
 }
 body header {
+  position: fixed;
   margin-top: 30px;
-  border-radius: 30px;
-  max-width: 68%;
+  width: 68%;
   margin-left: 1%;
-}
-body header .navbar {
+  background-color: orange;
   border-radius: 15px;
+  margin-bottom: 300px;
+}
+body header .nav-link:active {
+  background-color: gray;
+}
+body header .navbar-brand {
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
+body .containerWorks {
+  position: relative;
+  margin-left: 40px;
+}
+body .containerWorks .scrollspy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+body .containerWorks .containerProyectos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 60px;
+  width: 68%;
+}
+body .containerWorks .containerProyectos .proyecto {
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+}
+body .containerWorks .containerProyectos .proyecto .imgProyecto {
+  margin-top: 60px;
+  margin-inline: 30px;
+  height: auto;
+  width: 300px;
+}
+body .containerWorks .containerProyectos .proyecto .nombreProyecto {
+  text-align: center;
+  padding-top: 20px;
 }
 body h1 {
   font-family: "Fuggles", sans-serif, cursive;
@@ -58,4 +97,7 @@ body .boxProyecto {
 }
 body .boxProyecto .imgProyecto {
   width: 10vw;
+}
+body main {
+  padding-top: 120px;
 }/*# sourceMappingURL=pagina.css.map */

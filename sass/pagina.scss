@@ -13,14 +13,60 @@ body {
     overflow-x: hidden;
 
     header {
+        position: fixed;
         margin-top: 30px;
-        border-radius: 30px;
-        max-width: 68%;
+        width: 68%;
         margin-left: 1%;
+        background-color: $colorResaltado;
+        border-radius: 15px;
+        margin-bottom: 300px;
 
-        .navbar {
+        .nav-link:active {
+            background-color: gray;
+        }
 
-            border-radius: 15px;
+        .navbar-brand {
+            color: white;
+            font-size: 20px;
+            font-weight: 700;
+
+        }
+
+
+    }
+
+    .containerWorks {
+        position: relative;
+        margin-left: 40px;
+
+        .scrollspy {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .containerProyectos {
+            display: flex;
+            flex-direction:row;
+            flex-wrap: wrap;
+            gap: 60px;
+            width: 68%;
+
+            .proyecto {
+                max-width: fit-content;
+                .imgProyecto {
+                    margin-top: 60px;
+                    margin-inline: 30px;
+                    height: auto;
+                    width: 300px;
+                }
+
+                .nombreProyecto {
+                    text-align: center;
+                    padding-top: 20px;
+                }
+            }
         }
     }
 
@@ -72,8 +118,13 @@ body {
 
     .boxProyecto {
         max-width: 300px;
-        .imgProyecto{
+
+        .imgProyecto {
             width: 10vw;
         }
+    }
+
+    main {
+        padding-top: 120px;
     }
 }
