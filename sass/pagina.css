@@ -12,11 +12,12 @@ body {
 }
 body header {
   position: fixed;
-  margin-top: 30px;
   width: 68%;
-  margin-left: 1%;
-  background-color: orange;
-  border-radius: 15px;
+  background: rgb(214, 159, 39);
+  border: black 3px solid;
+  background: linear-gradient(90deg, rgb(214, 159, 39) 36%, rgb(68, 63, 63) 69%);
+  left: -20px;
+  border-bottom-right-radius: 15px;
   margin-bottom: 300px;
   z-index: 999;
 }
@@ -27,9 +28,17 @@ body header .nav-link:active {
   background-color: gray;
 }
 body header .navbar-brand {
+  padding-top: 20px;
+  padding-left: 20px;
   color: white;
-  font-size: 20px;
+  font-size: 25px;
+  font-family: "Cinzel", sans-serif;
   font-weight: 700;
+  transition: all 0.5s linear;
+}
+body header .navbar-brand:hover {
+  transform: scale(1.2);
+  text-decoration: underline;
 }
 body .containerWorks {
   position: relative;
@@ -40,6 +49,7 @@ body .containerWorks .scrollspy {
   align-items: center;
   justify-content: center;
   padding-top: 50px;
+  color: white;
 }
 body .containerWorks .containerProyectos {
   display: flex;
@@ -67,9 +77,13 @@ body .containerWorks .containerProyectos .proyecto .imgProyecto:hover {
   border-radius: 2%;
   opacity: 100%;
 }
+body .containerWorks .containerProyectos .proyecto .imgProyecto:hover .nombreProyecto {
+  color: orange;
+}
 body .containerWorks .containerProyectos .proyecto .nombreProyecto {
   text-align: center;
   padding-top: 20px;
+  color: white;
 }
 body h1 {
   font-family: "Fuggles", sans-serif, cursive;

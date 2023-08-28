@@ -14,16 +14,17 @@ body {
 
     header {
         position: fixed;
-        margin-top: 30px;
         width: 68%;
-        margin-left: 1%;
-        background-color: $colorResaltado;
-        border-radius: 15px;
+        background: rgb(214,159,39);
+        border: black 3px solid;
+        background: linear-gradient(90deg, rgba(214,159,39,1) 36%, rgba(68,63,63,1) 69%);
+        left: -20px;
+        border-bottom-right-radius: 15px;
         margin-bottom: 300px;
         z-index: 999;
 
-        .navbar{
-            height:auto
+        .navbar {
+            height: auto
         }
 
         .nav-link:active {
@@ -31,10 +32,17 @@ body {
         }
 
         .navbar-brand {
+            padding-top: 20px;
+            padding-left: 20px;
             color: white;
-            font-size: 20px;
+            font-size: 25px;
+            font-family: 'Cinzel', sans-serif;
             font-weight: 700;
-
+            transition: all .5s linear;
+        }
+        .navbar-brand:hover{
+            transform: scale(1.2);
+            text-decoration:underline;
         }
 
 
@@ -49,17 +57,19 @@ body {
             align-items: center;
             justify-content: center;
             padding-top: 50px;
+            color: white;
         }
 
         .containerProyectos {
             display: flex;
-            flex-direction:row;
+            flex-direction: row;
             flex-wrap: wrap;
             gap: 60px;
             width: 68%;
 
             .proyecto {
                 max-width: fit-content;
+
                 .imgProyecto {
                     margin-top: 60px;
                     margin-inline: 30px;
@@ -70,15 +80,20 @@ body {
                     transition: all .3s ease-in;
                     opacity: 60%;
                 }
-                .imgProyecto:hover{
+
+                .imgProyecto:hover {
                     transform: scale(1.2);
                     border-radius: 2%;
                     opacity: 100%;
+                    .nombreProyecto{
+                        color: orange;
+                    }
                 }
 
                 .nombreProyecto {
                     text-align: center;
                     padding-top: 20px;
+                    color: white;
                 }
             }
         }
