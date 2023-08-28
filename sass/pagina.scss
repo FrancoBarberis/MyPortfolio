@@ -20,9 +20,10 @@ body {
         background-color: $colorResaltado;
         border-radius: 15px;
         margin-bottom: 300px;
+        z-index: 999;
 
         .navbar{
-            height:auto;
+            height:auto
         }
 
         .nav-link:active {
@@ -64,10 +65,15 @@ body {
                     margin-inline: 30px;
                     height: auto;
                     width: 300px;
-                    transition: all 1s ease;
+                    border-radius: 100%;
+                    border: black solid 3px;
+                    transition: all .3s ease-in;
+                    opacity: 60%;
                 }
                 .imgProyecto:hover{
                     transform: scale(1.2);
+                    border-radius: 2%;
+                    opacity: 100%;
                 }
 
                 .nombreProyecto {
