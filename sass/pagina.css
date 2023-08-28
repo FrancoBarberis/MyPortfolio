@@ -19,6 +19,9 @@ body header {
   border-radius: 15px;
   margin-bottom: 300px;
 }
+body header .navbar {
+  height: auto;
+}
 body header .nav-link:active {
   background-color: gray;
 }
@@ -53,6 +56,10 @@ body .containerWorks .containerProyectos .proyecto .imgProyecto {
   margin-inline: 30px;
   height: auto;
   width: 300px;
+  transition: all 1s ease;
+}
+body .containerWorks .containerProyectos .proyecto .imgProyecto:hover {
+  transform: scale(1.2);
 }
 body .containerWorks .containerProyectos .proyecto .nombreProyecto {
   text-align: center;
